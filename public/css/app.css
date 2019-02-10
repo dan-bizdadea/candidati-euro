@@ -1,0 +1,32 @@
+em {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #EEE;
+    max-width:100%;
+}
+
+#scores {
+    margin:0 auto;
+    width: 900px;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+}
+table tr:first-child {
+    background-color: #DDD;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+td {
+    padding: 5px;
+}
