@@ -1561,3 +1561,36 @@ a.ui-button:active,
 .table th {
 	border-top:0!important;
 }
+
+.article {
+	padding: 10px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.article p, .article ul {
+	margin: 30px;
+	font-size: 21px;
+	line-height:1.68;
+	letter-spacing:-.003em;
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+	color: #333;
+}
+
+.article ul {
+	font-size: 19px;
+	color:#444;
+}
+
+.article h2, .article h3, .article h4 {
+	margin: 30px;
+}
+
+.article .card-body {
+	overflow:hidden;
+}
+
+.bg-gradient-primary {
+	background-color: #f8f9fc;
+	background-image:none;
+}

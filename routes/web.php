@@ -14,9 +14,7 @@
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
-    $candidates = App\Candidate::all();
-    $nr_candidates = count($candidates);
-    return view('candidati')->with(array('candidates' => $candidates, 'nr_candidates' => $nr_candidates));
+    return view('homepage');
 });
 
 
@@ -33,7 +31,7 @@ Route::get('/compare', function () {
     return view('compare')->with(array('parties' => $parties, 'parties_json' => $parties->toJson(), 'nr_parties' => $nr_parties, 'criteria'=>$criteria));
 });
 
-Route::get('/compare2', function () {
+Route::get('/comparator', function () {
     $parties = App\Party::all();
     $nr_parties = count($parties);
     $criteria = App\Criterion::all();
